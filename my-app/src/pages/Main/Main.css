@@ -1,0 +1,10 @@
+main {
+    text-align: center;
+    vertical-align: center;
+    line-height: 100vh
+  }
+  div.main {
+    position:absolute;
+    left:505px;
+    gap:16px;
+  }

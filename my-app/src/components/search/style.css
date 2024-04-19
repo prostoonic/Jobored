@@ -1,0 +1,22 @@
+div.search-vacansy input{
+    display: flex;
+    width: 773px;
+    height: 48px;
+    padding: 0px 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--grey-200, #EAEBED);
+    background: var(--grey-scale-white, #FFF);
+    margin-bottom:16px;
+}
+
+div.search-vacansy button{
+  height: 32px;
+  border-radius: 8px;
+  background: var(--Blue-Main-500, #5E96FC);
+  padding: 4px 20px;
+  position: absolute;
+  left: 703px;
+  top: 9px;
+}

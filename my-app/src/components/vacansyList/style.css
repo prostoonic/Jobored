@@ -1,0 +1,117 @@
+body{
+    background-color: #EAEBED;
+    margin: 0px;
+}
+nav {
+    display: flex;
+    height: 64px;
+    padding: 10px 162px;
+    align-items: center;
+    gap: 308px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+}
+
+nav div.center-items{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+main div.vacansy{
+    margin: 0 auto;
+    display: flex;
+    width: 773px;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 12px;
+    border: 1px solid var(--grey-200, #EAEBED);
+    background: #FFF;
+    
+}
+
+div.vacansy div.vacansy-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+div.vacansy-info div.job-title p{
+    color: var(--blue-main-500, #5E96FC);
+
+    /* Title S/Semibold */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+div.vacansy-info div.salary-and-work-days{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+div.salary-and-work-days div.salary p{
+    color: var(--black, #232134);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin: 0px;
+
+}
+
+div.salary-and-work-days div.dot p{
+    color: var(--grey-600, #7B7C88);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 21px; /* 105% */
+}
+
+div.salary-and-work-days div.work-days p{
+    color: var(--black, #232134);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    margin: 0px;
+    
+}
+
+div.vacansy-info div.location{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+div.vacansy-info div.location p{
+    color: var(--black, #232134);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}

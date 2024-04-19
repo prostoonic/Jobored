@@ -1,0 +1,144 @@
+aside {
+    display: flex;
+    width: 274px;
+    padding: 20px;
+    align-items: flex-start;        
+    /* gap: 10px; */
+    border-radius: 12px;
+    border: 1px solid var(--grey-200, #EAEBED);
+    background: #FFF;
+    flex-direction: column;
+    position: absolute;
+    top: 124px;
+    left: 162px;
+
+}
+
+aside div.aside-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 31px;
+    box-sizing:border-box;
+    width:auto;
+    max-width:100%;
+}
+
+aside div.upper-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+
+div.filters p{
+    color: var(--black, #232134);
+
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0px;
+    
+}
+
+div.upper-block div.reset-btn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+div.reset-btn p{
+    color: var(--grey-500, #ACADB9);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0px;
+
+}
+
+div.aside-items div.industry{
+    display: flex;
+    width: 275px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+div.industry p{
+    color: var(--black, #232134);
+
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+
+}
+
+select {
+    display: flex;
+    height: 42px;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--grey-300, #D5D6DC);
+    background: #FFF;
+    }
+
+div.aside-items div.salary-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 275px;
+
+}
+
+
+
+div.salary-inputs p {
+    color: var(--black, #232134);
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+
+}
+
+div.salary-inputs input {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--grey-300, #D5D6DC);
+    background: #FFF;
+}
+
+div.aside-items div.apply-btn{
+    width: 275px;
+    margin: 0px;
+}
+
+div.apply-btn button{
+    height: 40px;
+    padding: 4px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--blue-main-500, #5E96FC);
+}
